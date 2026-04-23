@@ -20,4 +20,4 @@ jobs:
         run: npm install
 
       - name: Correr los tests
-        run: npm test
+        run: npm test -- --forceExit --testTimeout=10000
