@@ -1,0 +1,19 @@
+{
+  "name": "mi-primer-cicdmorenodaniel",
+  "version": "1.0.0",
+  "description": "Mi primer pipeline CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danpro2626/mi-primer-cicdMorenoDaniel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
