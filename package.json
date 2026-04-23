@@ -4,16 +4,13 @@
   "description": "Mi primer pipeline CI/CD",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --forceExit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Danpro2626/mi-primer-cicdMorenoDaniel.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "jest": "^30.3.0"
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "forceExit": true
   }
 }
